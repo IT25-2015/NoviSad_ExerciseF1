@@ -14,6 +14,10 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException{
+		for(int i = 0; i < 10; i++)
+		{
+			frames.add(frame);
+		}
 		if(frames.size() == 10){
 			throw new BowlingException();
 		}
