@@ -44,31 +44,14 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		boolean checkStrike = false;
-		boolean checkDoubleStrike = false;
-		boolean checkSpare = false;
 		int score = 0;
 		for(Frame fr : frames){
-			if(checkStrike){
-				if(checkDoubleStrike){
-					score += fr.getFirstThrow();
-					checkDoubleStrike = false;
-				}
-				score += fr.getFirstThrow() + fr.getSecondThrow();
-				checkStrike = false;
-			}
-			else if(checkSpare){
-				score += fr.getFirstThrow();
-				checkSpare = false;
-			}
 			if(fr.isStrike()){
-				checkStrike = true;
+				score += fr.getFirstThrow() + fr.getSecondThrow();
 			}
-			if(fr.isSpare()){
-				checkSpare = true;
+			else if(fr.isSpare()){
+				score += fr.getFirstThrow();
 			}
-			score += fr.getFirstThrow() + fr.getSecondThrow();
-			System.out.println(score + "skor");
 		}
 		return score;
 	}
