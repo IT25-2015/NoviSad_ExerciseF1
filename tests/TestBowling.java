@@ -30,5 +30,12 @@ public class TestBowling {
 		
 		assertEquals("Greska", 8, skor);
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void test_bowling_exception() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(0,0));
+		
+	}
 
 }
