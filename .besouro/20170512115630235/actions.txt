@@ -67,3 +67,10 @@ EditAction 1494584765043 BowlingGame.java 877 4 3 0
 UnitTestCaseAction 1494584771108 TestBowling.java OK
 UnitTestSessionAction 1494584771111 TestBowling.java OK
 EditAction 1494584794691 BowlingGame.java 876 4 3 0
+UnitTestCaseAction 1494584800060 TestBowling.java OK
+UnitTestSessionAction 1494584800062 TestBowling.java OK
+RefactoringAction 1494585175849 BowlingGame.java ADD void frame FIELD
+RefactoringAction 1494585177872 BowlingGame.java RENAME frame=>void frameEnded FIELD
+RefactoringAction 1494585186426 BowlingGame.java RENAME frameEnded=>boolean frameEnded() METHOD
+RefactoringAction 1494585263614 BowlingGame.java REMOVE frameEnded() METHOD
+EditAction 1494585656165 BowlingGame.java 1322 4 9 0

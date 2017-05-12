@@ -28,12 +28,33 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		for(Frame fr : frames){
+			if(fr.isStrike()){
+				
+			}
+		}
 	}
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
-		return 0;
+		boolean checkStrike = false;
+		boolean checkDoubleStrike = false;
+		boolean checkSpare = false;
+		int score = 0;
+		for(Frame fr : frames){
+			if(checkStrike){
+				if(checkDoubleStrike){
+					score += fr.getFirstThrow();
+					checkDoubleStrike = false;
+				}
+				score += fr.getFirstThrow() + fr.getSecondThrow();
+				checkStrike = false;
+			}
+			if(checkSpare){
+				score += fr.getFirstThrow();
+				checkSpare = false;
+			}
+		}
+		return score;
 	}
 }
