@@ -45,7 +45,6 @@ public class TestBowling {
 		bg.addFrame(new Frame(0,0));
 		bg.addFrame(new Frame(0,0));
 		bg.addFrame(new Frame(0,0));
-		
 	}
 
 }
