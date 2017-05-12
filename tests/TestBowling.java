@@ -46,5 +46,16 @@ public class TestBowling {
 		bg.addFrame(new Frame(0,0));
 		bg.addFrame(new Frame(0,0));
 	}
+	
+	@Test
+	public void test_score_bowling_game() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		int score = bg.score();
+		bg.addFrame(new Frame(10,0));
+		bg.addFrame(new Frame(0,5));
+		bg.addFrame(new Frame(3,0));
+		
+		assertEquals("Greska", 18, score);
+	}
 
 }

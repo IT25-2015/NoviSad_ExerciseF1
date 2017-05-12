@@ -58,7 +58,7 @@ public class BowlingGame {
 				checkStrike = true;
 			}
 			if(fr.isSpare()){
-				checkSpare == true;
+				checkSpare = true;
 			}
 		}
 		return score;
