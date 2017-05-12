@@ -18,7 +18,7 @@ public class BowlingGame {
 		{
 			frames.add(frame);
 		}
-		if(frames.size() == 10){
+		if(frames.size() > 10){
 			throw new BowlingException();
 		}
 		else{
