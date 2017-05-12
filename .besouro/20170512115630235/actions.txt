@@ -96,3 +96,8 @@ RefactoringAction 1494586263498 BowlingGame.java ADD boolean gameEnded() METHOD
 EditAction 1494586296765 BowlingGame.java 1631 5 11 0
 EditAction 1494586606509 TestBowling.java 1384 5 25 4
 EditAction 1494586611586 BowlingGame.java 1179 5 8 0
+UnitTestCaseAction 1494586615280 TestBowling.java FAIL
+UnitTestSessionAction 1494586615282 TestBowling.java FAIL
+RefactoringAction 1494586692641 BowlingGame.java RENAME gameEnded()=>boolean frameEnded() METHOD
+RefactoringAction 1494586720706 BowlingGame.java RENAME frameEnded()=>boolean Ended() METHOD
+RefactoringAction 1494586721761 BowlingGame.java RENAME Ended()=>boolean gameEnded() METHOD
