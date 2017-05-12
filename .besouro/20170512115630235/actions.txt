@@ -46,3 +46,4 @@ UnitTestSessionAction 1494583822259 TestBowling.java OK
 RefactoringAction 1494584035199 Frame.java ADD publiv Frame FIELD
 RefactoringAction 1494584036226 Frame.java RENAME Frame=>publiv Frame() METHOD
 EditAction 1494584050877 Frame.java 807 7 10 0
+EditAction 1494584312808 BowlingGame.java 907 4 4 0
