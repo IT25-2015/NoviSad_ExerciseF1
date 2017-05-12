@@ -35,6 +35,16 @@ public class TestBowling {
 	public void test_bowling_exception() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
 		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
 		
 	}
 

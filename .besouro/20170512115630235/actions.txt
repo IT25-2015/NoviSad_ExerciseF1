@@ -55,3 +55,6 @@ RefactoringAction 1494584379560 TestBowling.java RENAME test_bowling_exception=>
 RefactoringAction 1494584562208 BowlingException.java ADD void addFrame(Frame) METHOD
 RefactoringAction 1494584569612 BowlingException.java REMOVE addFrame(Frame) METHOD
 EditAction 1494584665224 TestBowling.java 785 4 9 3
+UnitTestCaseAction 1494584668914 TestBowling.java OK
+UnitTestSessionAction 1494584668915 TestBowling.java OK
+EditAction 1494584687985 TestBowling.java 1105 4 19 3
