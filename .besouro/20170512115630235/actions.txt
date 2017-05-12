@@ -19,3 +19,6 @@ RefactoringAction 1494583277392 TestBowling.java RENAME test=>void test_ FIELD
 RefactoringAction 1494583279408 TestBowling.java RENAME test_=>void test_spare FIELD
 RefactoringAction 1494583281925 TestBowling.java RENAME test_spare=>void test_spare() METHOD
 EditAction 1494583312916 TestBowling.java 402 2 4 2
+UnitTestCaseAction 1494583317158 TestBowling.java OK
+UnitTestSessionAction 1494583317162 TestBowling.java OK
+EditAction 1494583365245 Frame.java 782 6 10 0
