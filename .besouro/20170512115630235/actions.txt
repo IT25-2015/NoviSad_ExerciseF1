@@ -11,3 +11,6 @@ RefactoringAction 1494583155213 TestBowling.java REMOVE test() METHOD
 RefactoringAction 1494583155218 TestBowling.java REMOVE test_strike() METHOD
 RefactoringAction 1494583157756 TestBowling.java ADD void test_strike() METHOD
 EditAction 1494583161074 TestBowling.java 286 1 2 1
+UnitTestCaseAction 1494583166690 TestBowling.java OK
+UnitTestSessionAction 1494583166692 TestBowling.java OK
+EditAction 1494583255704 Frame.java 762 6 9 0
