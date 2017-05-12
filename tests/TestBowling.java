@@ -15,5 +15,12 @@ public class TestBowling {
 		
 		assertEquals("Greska", true, provera);
 	}
+	
+	@Test
+	public void test_spare(){
+		boolean provera = true;
+		
+		assertEquals("Greska", true, provera);
+	}
 
 }
