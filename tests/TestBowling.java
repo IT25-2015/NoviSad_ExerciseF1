@@ -22,5 +22,13 @@ public class TestBowling {
 		
 		assertEquals("Greska", true, provera);
 	}
+	
+	@Test
+	public void test_score() throws BowlingException{
+		Frame fr = new Frame(5, 3);
+		int skor = fr.getFirstThrow() + fr.getSecondThrow();
+		
+		assertEquals("Greska", 8, skor);
+	}
 
 }
