@@ -94,3 +94,4 @@ RefactoringAction 1494586255426 BowlingGame.java ADD void gameE FIELD
 RefactoringAction 1494586257972 BowlingGame.java REMOVE gameE FIELD
 RefactoringAction 1494586263498 BowlingGame.java ADD boolean gameEnded() METHOD
 EditAction 1494586296765 BowlingGame.java 1631 5 11 0
+EditAction 1494586606509 TestBowling.java 1384 5 25 4

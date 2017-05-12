@@ -50,12 +50,12 @@ public class TestBowling {
 	@Test
 	public void test_score_bowling_game() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
-		int score = bg.score();
-		bg.addFrame(new Frame(10,0));
+		bg.addFrame(new Frame(4,0));
 		bg.addFrame(new Frame(0,5));
 		bg.addFrame(new Frame(3,0));
+		int score = bg.score();
 		
-		assertEquals("Greska", 18, score);
+		assertEquals("Greska", 9, score);
 	}
 
 }
