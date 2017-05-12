@@ -40,3 +40,4 @@ RefactoringAction 1494583633717 BowlingException.java RENAME bowlingE=>String bo
 RefactoringAction 1494583636227 BowlingException.java RENAME bowlingExc=>String bowlingExc() METHOD
 EditAction 1494583650615 BowlingException.java 113 1 1 0
 EditAction 1494583809962 Frame.java 784 6 10 0
+EditAction 1494583818363 BowlingGame.java 723 4 2 0
