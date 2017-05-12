@@ -88,3 +88,9 @@ EditAction 1494586065822 TestBowling.java 1386 5 25 4
 UnitTestCaseAction 1494586070284 TestBowling.java FAIL
 UnitTestSessionAction 1494586070288 TestBowling.java FAIL
 EditAction 1494586147593 BowlingGame.java 1528 4 9 0
+UnitTestCaseAction 1494586151898 TestBowling.java FAIL
+UnitTestSessionAction 1494586151900 TestBowling.java FAIL
+RefactoringAction 1494586255426 BowlingGame.java ADD void gameE FIELD
+RefactoringAction 1494586257972 BowlingGame.java REMOVE gameE FIELD
+RefactoringAction 1494586263498 BowlingGame.java ADD boolean gameEnded() METHOD
+EditAction 1494586296765 BowlingGame.java 1631 5 11 0

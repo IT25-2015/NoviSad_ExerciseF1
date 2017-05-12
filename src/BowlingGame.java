@@ -26,6 +26,13 @@ public class BowlingGame {
 		}
 	}
 	
+	public boolean gameEnded(){
+		if(frames.size() > 10){
+			return true;
+		}
+		return false;
+	}
+	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
 		for(Frame fr : frames){
