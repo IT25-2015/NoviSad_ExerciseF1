@@ -60,6 +60,8 @@ public class BowlingGame {
 			if(fr.isSpare()){
 				checkSpare = true;
 			}
+			score += fr.getFirstThrow() + fr.getSecondThrow();
+			System.out.println(score + "skor");
 		}
 		return score;
 	}
