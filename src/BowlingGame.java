@@ -50,9 +50,15 @@ public class BowlingGame {
 				score += fr.getFirstThrow() + fr.getSecondThrow();
 				checkStrike = false;
 			}
-			if(checkSpare){
+			else if(checkSpare){
 				score += fr.getFirstThrow();
 				checkSpare = false;
+			}
+			if(fr.isStrike()){
+				checkStrike = true;
+			}
+			if(fr.isSpare()){
+				checkSpare == true;
 			}
 		}
 		return score;

@@ -74,3 +74,11 @@ RefactoringAction 1494585177872 BowlingGame.java RENAME frame=>void frameEnded F
 RefactoringAction 1494585186426 BowlingGame.java RENAME frameEnded=>boolean frameEnded() METHOD
 RefactoringAction 1494585263614 BowlingGame.java REMOVE frameEnded() METHOD
 EditAction 1494585656165 BowlingGame.java 1322 4 9 0
+RefactoringAction 1494585690412 TestBowling.java ADD void test FIELD
+RefactoringAction 1494585691932 TestBowling.java RENAME test=>void test_s FIELD
+RefactoringAction 1494585692949 TestBowling.java RENAME test_s=>void test_ FIELD
+RefactoringAction 1494585695498 TestBowling.java RENAME test_=>void test_score FIELD
+RefactoringAction 1494585698046 TestBowling.java RENAME test_score=>void test_score_ FIELD
+RefactoringAction 1494585700605 TestBowling.java RENAME test_score_=>void test_score_bowling FIELD
+RefactoringAction 1494585704633 TestBowling.java RENAME test_score_bowling=>void test_score_bowling_game() METHOD
+EditAction 1494586019251 BowlingGame.java 1434 4 3 0
