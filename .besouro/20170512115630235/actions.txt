@@ -26,3 +26,16 @@ RefactoringAction 1494583380674 TestBowling.java ADD void test FIELD
 RefactoringAction 1494583382686 TestBowling.java RENAME test=>void test_score FIELD
 RefactoringAction 1494583383701 TestBowling.java RENAME test_score=>void test_score() METHOD
 EditAction 1494583539596 TestBowling.java 596 3 7 3
+UnitTestCaseAction 1494583544140 TestBowling.java OK
+UnitTestSessionAction 1494583544142 TestBowling.java OK
+RefactoringAction 1494583577020 BowlingException.java ADD String B FIELD
+RefactoringAction 1494583579027 BowlingException.java REMOVE B FIELD
+RefactoringAction 1494583584536 BowlingException.java ADD String bExcc FIELD
+RefactoringAction 1494583587550 BowlingException.java RENAME bExcc=>String bException FIELD
+RefactoringAction 1494583590560 BowlingException.java RENAME bException=>String bException() METHOD
+RefactoringAction 1494583610159 BowlingException.java REMOVE bException() METHOD
+RefactoringAction 1494583629695 BowlingException.java ADD String b FIELD
+RefactoringAction 1494583632704 BowlingException.java RENAME b=>String bowlingE FIELD
+RefactoringAction 1494583633717 BowlingException.java RENAME bowlingE=>String bowlingExc FIELD
+RefactoringAction 1494583636227 BowlingException.java RENAME bowlingExc=>String bowlingExc() METHOD
+EditAction 1494583650615 BowlingException.java 113 1 1 0
