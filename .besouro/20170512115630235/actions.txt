@@ -41,3 +41,8 @@ RefactoringAction 1494583636227 BowlingException.java RENAME bowlingExc=>String 
 EditAction 1494583650615 BowlingException.java 113 1 1 0
 EditAction 1494583809962 Frame.java 784 6 10 0
 EditAction 1494583818363 BowlingGame.java 723 4 2 0
+UnitTestCaseAction 1494583822257 TestBowling.java OK
+UnitTestSessionAction 1494583822259 TestBowling.java OK
+RefactoringAction 1494584035199 Frame.java ADD publiv Frame FIELD
+RefactoringAction 1494584036226 Frame.java RENAME Frame=>publiv Frame() METHOD
+EditAction 1494584050877 Frame.java 807 7 10 0
