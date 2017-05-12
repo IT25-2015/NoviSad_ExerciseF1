@@ -1,2 +1,7 @@
 FileOpenedAction 1494582990782 Frame.java 695 6 6 0
 EditAction 1494583031373 Frame.java 695 6 8 0
+RefactoringAction 1494583053897 TestBowling.java ADD void test FIELD
+RefactoringAction 1494583054909 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1494583056423 TestBowling.java RENAME test_=>void test_strike FIELD
+RefactoringAction 1494583057434 TestBowling.java RENAME test_strike=>void test_strike() METHOD
+EditAction 1494583138840 TestBowling.java 282 2 3 1

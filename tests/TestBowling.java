@@ -8,5 +8,12 @@ public class TestBowling {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void test_strike(){
+		boolean provera = true;
+		
+		assertEquals("Greska", true, provera);
+	}
 
 }
